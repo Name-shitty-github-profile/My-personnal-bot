@@ -23,10 +23,10 @@ class Antispam(commands.Cog):
       await asyncio.sleep(1)
       del data[msdg]
     elif num == 2:
-      await message.author.send("I will kick you if you send more messages per seconds.")
+      await message.author.send("FR\nJe vais te kick si tu envoie plus de messages par seconde.\nEN\nI will kick you if you send more messages per seconds.")
     elif num == 3:
-      task = asyncio.create_task(message.author.send(f"You were spamming in {message.guild.name} so I kicked you."))
-      await message.author.kick(reason="Spamming")
+      task = asyncio.create_task(message.author.send(f"FR\nTu spammais dans {message.guild.name} donc je t'ai kick.\nEN\nYou were spamming in {message.guild.name} so I kicked you."))
+      await message.author.kick(reason="FR Spam |EN Spamming")
       await task
 
 def setup(bot):
