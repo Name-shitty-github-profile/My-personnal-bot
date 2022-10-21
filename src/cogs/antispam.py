@@ -10,7 +10,7 @@ class Antispam(commands.Cog):
   async def antispam(self, message):
     global data
     if message.guild is None: return
-    if checkperm(message.author, ['admin']) is False: return
+    if checkperm(message.author, ['admin']): return
     msdg = str(message.author.id)
     try:
       data[msdg]['d'] += 1
