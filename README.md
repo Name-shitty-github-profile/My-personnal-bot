@@ -11,3 +11,6 @@ Add the message id in data/ticket.json as this {"message id|channel id": "Catego
 You can add as much as you want
 ## role
 get the server id and put it in data/role.json as this {"server id": "member role id"}
+# Support
+Join this server for support
+https://discord.gg/XQ8F9CCQpH
